@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shoya.muadv">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Light.NoTitleBar">
+        <activity android:name=".Demo">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Main2Activity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Temp" />
+        <activity
+            android:name=".Kamishibai_Prius.PleaseTalkWithMe"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.Prius_to_Prius"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.TSSOverView_Prius"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.PCSandLCC"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.AHBandBSM"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.Please_RideMotion"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.LetTryPrius"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Setting" />
+        <activity
+            android:name=".DrinkMenu"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Haiki"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".HVChange"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Kamishibai_Prius.RecallMain"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.ToyotaSafetySense"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.TSS_PCS"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.TSS_LCC"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.TSS_AHB"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.TSS_RDA"
+            android:screenOrientation="landscape" />
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ToyotaSS.TSS_C"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ToyotaSS.TSS_C_HUTAI"
+            android:screenOrientation="landscape" />
+        <activity android:name=".CarInfo.Aqua_info" />
+        <activity android:name=".CarInfo.CrownRoyal_info" />
+        <activity
+            android:name=".CarInfo.Sienta"
+            android:theme="@style/AppBaseTheme" />
+        <activity android:name=".CarInfo.PRADO" />
+        <activity android:name=".CarInfo.Esq" />
+        <activity android:name=".CarInfo.Estima" />
+        <activity android:name=".CarInfo.RandCruiser" />
+        <activity android:name=".CarInfo.PriusAlpha" />
+        <activity android:name=".CarInfo.SAI" />
+        <activity android:name=".CarInfo.Arion" />
+        <activity android:name=".CarInfo.CrownAthlete" />
+        <activity android:name=".CarInfo.CrownMajesta" />
+        <activity android:name=".CarInfo.Century" />
+        <activity android:name=".CarInfo.Porte" />
+        <activity android:name=".CarInfo.FJ" />
+        <activity android:name=".CarInfo.isi" />
+        <activity android:name=".CarInfo.Avensis" />
+        <activity android:name=".CarInfo.hatiroku" />
+        <activity android:name=".CarInfo.Mirai" />
+        <activity
+            android:name=".jaf"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Hoken"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppBaseTheme" />
+        <activity android:name=".HowTo"></activity>
+    </application>
+
+</manifest>

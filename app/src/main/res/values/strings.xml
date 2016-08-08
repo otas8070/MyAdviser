@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyAdviser</string>
+    <string name="top_center">top_center</string>
+    <string name="top_left">top_left</string>
+    <string name="top_right">top_right</string>
+    <string name="middle">middle</string>
+    <string name="bottom_left">bottom_left</string>
+    <string name="bottom_center">bottom_center</string>
+    <string name="bottom_right">bottom_right</string>
+    <string-array name="list">
+        <item>スタッフ名</item>
+        <item>泉店長</item>
+        <item>鬼塚</item>
+        <item>吉木</item>
+        <item>大隈</item>
+        <item>稲富</item>
+        <item>古賀</item>
+        <item>砥板</item>
+        <item>水田</item>
+        <item>豊田</item>
+    </string-array>
+</resources>

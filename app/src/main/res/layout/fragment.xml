@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#00000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:baselineAligned="false"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/prius_button"
+                            android:onClick="kamishibai"/>¥
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/aqua_button"
+                            android:onClick="aqua"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/ca_logo"
+                            android:onClick="ca"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/crown_royal"
+                            android:onClick="cr"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/cm_logo"
+                            android:onClick="cm"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/rc_logo"
+                            android:onClick="rc"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/prd_logo"
+                            android:onClick="prd"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/hatiroku"
+                            android:onClick="hatiroku"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/sienta_logo"
+                            android:onClick="sienta"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/esq"
+                            android:onClick="esq"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/estima_logo"
+                            android:onClick="Estima"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/pa"
+                            android:onClick="pa"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/sai_logo"
+                            android:onClick="sai"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/arion_logo"
+                            android:onClick="arion"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/porte_logo"
+                            android:onClick="porte"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/mirai"
+                            android:onClick="mirai"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/fj"
+                            android:onClick="fj"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/isis_logo"
+                            android:onClick="isis"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/ave"
+                            android:onClick="ave"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+
+
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#FFFFF0"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/centry"
+                            android:onClick="centry"
+                            android:background="#ffffff" />
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:baselineAligned="false"
+            android:orientation="vertical" />
+    </LinearLayout>
+</LinearLayout>

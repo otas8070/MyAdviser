@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#00000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#00000000"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:baselineAligned="false"
+            android:orientation="vertical" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="4">
+
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:onClick="setting"
+                            android:text="各種設定"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="15dp"
+                        android:layout_weight="2"
+                        android:background="#00000000"
+                        android:orientation="vertical"/>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="150dp"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:orientation="vertical">
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/drinkmenu"
+                            android:onClick="how"
+                            android:text="使用方法"/>
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:baselineAligned="false"
+            android:orientation="vertical" />
+    </LinearLayout>
+</LinearLayout>
